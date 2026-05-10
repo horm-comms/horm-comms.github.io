@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>G500 PRO 웨비나 공지 · 해오름커뮤니케이션즈</title>
+<meta property="og:title" content="G500 PRO — 학원 맞춤 AI 마케팅 비서">
+<meta property="og:description" content="마케팅 직원 연봉의 1/20 비용으로 내외부 마케팅을 한 번에. 얼리버드 10개 추가모집 중.">
+<meta property="og:image" content="https://i.imgur.com/boAr5oP.jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://i.imgur.com/boAr5oP.jpeg">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #0a1628;
+    --blue: #1a3d6e;
+    --sky: #2563a8;
+    --gold: #c9a84c;
+    --gold-light: #f0d080;
+    --cream: #faf8f3;
+    --warm-white: #fff9f2;
+    --text-dark: #1a1814;
+    --text-mid: #4a4540;
+    --text-light: #7a7470;
+    --border: #e8e0d0;
+  }
+
+  body {
+    background: var(--cream);
+    font-family: 'Noto Sans KR', sans-serif;
+    color: var(--text-dark);
+    min-height: 100vh;
+  }
+
+  /* ── 헤더 ── */
+  .hero {
+    background: var(--navy);
+    position: relative;
+    overflow: hidden;
+    padding: 70px 24px 60px;
+    text-align: center;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 50% at 50% 0%, rgba(37,99,168,0.35) 0%, transparent 70%),
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 40px,
+        rgba(201,168,76,0.04) 40px,
+        rgba(201,168,76,0.04) 41px
+      );
+  }
+  .hero-inner { position: relative; max-width: 680px; margin: 0 auto; }
+
+  .webinar-tag {
+    display: inline-block;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    padding: 5px 16px;
+    border-radius: 2px;
+    margin-bottom: 28px;
+    animation: fadeDown 0.6s ease both;
+  }
+
+  .hero-title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: clamp(39px, 6vw, 53px);
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.35;
+    margin-bottom: 16px;
+    animation: fadeDown 0.6s 0.1s ease both;
+  }
+  .hero-title em {
+    font-style: normal;
+    color: var(--gold-light);
+  }
+
+  .hero-sub {
+    font-size: 17px;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.8;
+    animation: fadeDown 0.6s 0.2s ease both;
+  }
+
+  .hero-divider {
+    width: 40px;
+    height: 2px;
+    background: var(--gold);
+    margin: 28px auto;
+    animation: fadeDown 0.6s 0.25s ease both;
+  }
+
+  /* ── 공통 섹션 ── */
+  .container { max-width: 680px; margin: 0 auto; padding: 0 20px; }
+  .section { padding: 48px 20px; }
+
+  /* ── 공감 훅 ── */
+  .hook-section {
+    background: var(--warm-white);
+    border-top: 3px solid var(--gold);
+  }
+  .hook-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gold);
+    letter-spacing: 0.12em;
+    margin-bottom: 20px;
+  }
+  /* hook-list moved above */
+  .hook-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 18px;
+    color: var(--text-mid);
+    line-height: 1.65;
+    counter-increment: hook-counter;
+  }
+  .hook-list li::before {
+    content: counter(hook-counter);
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    background: var(--navy);
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+  }
+  .hook-list {
+    list-style: none;
+    counter-reset: hook-counter;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .hook-answer {
+    background: var(--navy);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 1.8;
+    border-left: 3px solid var(--gold);
+  }
+  .hook-answer strong { color: var(--gold-light); font-weight: 500; }
+
+  /* ── 5단계 로드맵 ── */
+  .roadmap-section { background: var(--cream); }
+  .section-title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 8px;
+  }
+  .section-desc {
+    font-size: 16px;
+    color: var(--text-light);
+    margin-bottom: 32px;
+    line-height: 1.7;
+  }
+
+  .steps { display: flex; flex-direction: column; gap: 0; }
+  .step-row {
+    display: flex;
+    gap: 0;
+    align-items: stretch;
+    animation: fadeUp 0.5s ease both;
+  }
+  .step-row:nth-child(1) { animation-delay: 0.05s; }
+  .step-row:nth-child(2) { animation-delay: 0.1s; }
+  .step-row:nth-child(3) { animation-delay: 0.15s; }
+  .step-row:nth-child(4) { animation-delay: 0.2s; }
+  .step-row:nth-child(5) { animation-delay: 0.25s; }
+
+  .step-num-col {
+    width: 52px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 18px;
+  }
+  .step-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    z-index: 1;
+    position: relative;
+  }
+  .step-line {
+    width: 1px;
+    flex: 1;
+    background: var(--border);
+    margin-top: 6px;
+  }
+  .step-row:last-child .step-line { display: none; }
+
+  .step-body {
+    flex: 1;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 18px 20px;
+    margin-bottom: 12px;
+    margin-left: 8px;
+  }
+  .step-row:last-child .step-body { margin-bottom: 0; }
+  .step-keyword {
+    display: inline-block;
+    background: var(--navy);
+    color: var(--gold);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    padding: 2px 10px;
+    border-radius: 2px;
+    margin-bottom: 8px;
+  }
+  .step-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 6px;
+  }
+  .step-detail {
+    font-size: 16px;
+    color: var(--text-light);
+    line-height: 1.7;
+  }
+  .step-highlight {
+    font-size: 15px;
+    color: var(--sky);
+    font-weight: 500;
+    margin-top: 6px;
+  }
+
+  /* ── 혜택 ── */
+  .benefits-section { background: var(--navy); }
+  .benefits-section .section-title { color: #fff; }
+  .benefits-section .section-desc { color: rgba(255,255,255,0.45); }
+
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  @media (max-width: 480px) {
+    .benefits-grid { grid-template-columns: 1fr; }
+    .steps { gap: 0; }
+  }
+  .benefit-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(201,168,76,0.25);
+    border-radius: 6px;
+    padding: 16px 18px;
+  }
+  .benefit-icon {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .benefit-title {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--gold-light);
+    margin-bottom: 4px;
+  }
+  .benefit-desc {
+    font-size: 15px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.6;
+  }
+
+  /* ── 가격 ── */
+  .price-section { background: var(--warm-white); }
+
+  .price-card {
+    background: #fff;
+    border: 1.5px solid var(--navy);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .price-card-header {
+    background: var(--navy);
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .price-card-header-title {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+    font-weight: 400;
+  }
+  .price-earlybird {
+    background: var(--gold);
+    color: var(--navy);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 2px;
+  }
+  .price-card-body { padding: 24px; }
+  .price-amount {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 4px;
+  }
+  .price-amount span {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-light);
+  }
+  .price-monthly {
+    font-size: 16px;
+    color: var(--sky);
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .price-divider { border: none; border-top: 1px solid var(--border); margin-bottom: 20px; }
+  .price-account {
+    font-size: 16px;
+    color: var(--text-mid);
+    line-height: 2;
+  }
+  .price-account strong { color: var(--text-dark); font-weight: 500; }
+
+  .urgency-strip {
+    background: #fff3e0;
+    border: 1px solid #f0c070;
+    border-radius: 6px;
+    padding: 14px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+  .urgency-icon { font-size: 23px; flex-shrink: 0; }
+  .urgency-text { font-size: 16px; color: #7a5010; line-height: 1.7; }
+  .urgency-text strong { color: #5a3a08; font-weight: 700; }
+
+  /* ── CTA ── */
+  .cta-section { background: var(--navy); text-align: center; padding: 56px 20px; }
+  .cta-title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  .cta-sub {
+    font-size: 16px;
+    color: rgba(255,255,255,0.45);
+    margin-bottom: 32px;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--navy);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px 48px;
+    border-radius: 4px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: background 0.2s, transform 0.15s;
+  }
+  .cta-btn:hover { background: var(--gold-light); transform: translateY(-2px); }
+  .webinar-btn {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--navy);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px 48px;
+    border-radius: 4px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: background 0.2s, transform 0.15s;
+  }
+  .webinar-btn:hover { background: var(--gold-light); transform: translateY(-2px); }
+  .cta-note {
+    font-size: 15px;
+    color: rgba(255,255,255,0.35);
+    margin-top: 14px;
+  }
+
+  /* ── 푸터 ── */
+  footer {
+    background: #060e1c;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 15px;
+    color: rgba(255,255,255,0.3);
+    line-height: 2;
+  }
+  footer a { color: rgba(255,255,255,0.4); text-decoration: none; }
+
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-14px); }
+    to   { opacity: 1; transform: none; }
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="webinar-tag">📣 WEBINAR · 참가자 전용 공지</div>
+    <h1 class="hero-title">
+      웨비나에서 보셨죠?<br>
+      이제 <em>G500 PRO</em>를<br>직접 시작하실 차례입니다
+    </h1>
+    <div class="hero-divider"></div>
+    <p class="hero-sub">
+      학원 맞춤 AI 마케팅 비서<br>
+      <strong style="color:rgba(255,255,255,0.85); font-weight:700; font-size:20px;">(주)해오름커뮤니케이션즈 × (주)슈퍼플레이스</strong><br>
+      <strong style="color:rgba(255,255,255,0.9); font-weight:700; font-size:20px;">마케팅 직원 연봉의 1/20 비용으로 내외부 마케팅을 한 번에</strong>
+    </p>
+  </div>
+</section>
+
+<!-- ── 공감 훅 ── -->
+<section class="hook-section section">
+  <div class="container">
+    <p class="hook-label">혹시 이런 고민이 있으셨나요</p>
+    <ul class="hook-list">
+      <li>홍보비는 계속 나가는데 신규 문의가 한 달에 1건도 없다</li>
+      <li>밤새워 블로그를 써도 검색에 잘 나오지 않는다</li>
+      <li>어렵게 등록시켜도 시험만 끝나면 줄퇴원이 이어진다</li>
+    </ul>
+    <div class="hook-answer">
+      G500 PRO는 이 두 가지를 <strong>동시에</strong> 해결합니다.<br>
+      신규 유입부터 재등록 관리까지 — 원장님 혼자서도 체계적으로 운영할 수 있는 <strong>학원 전용 AI 마케팅 시스템</strong>입니다.
+    </div>
+  </div>
+</section>
+
+<!-- ── 5단계 로드맵 ── -->
+<section class="roadmap-section section">
+  <div class="container">
+    <h2 class="section-title">5단계 성장 로드맵</h2>
+    <p class="section-desc">유입부터 성장까지, 빠진 고리 없이 연결됩니다</p>
+    <div class="steps">
+
+      <div class="step-row">
+        <div class="step-num-col">
+          <div class="step-circle">1</div>
+          <div class="step-line"></div>
+        </div>
+        <div class="step-body">
+          <span class="step-keyword">유입</span>
+          <p class="step-name">네이버 플레이스 &amp; 블로그 분석</p>
+          <p class="step-detail">매일 자동으로 확인하는 우리 학원의 지역 검색 순위. 데이터로 찾아내는 상위 노출 황금 키워드 전략.</p>
+          <p class="step-highlight">→ 더 이상 감에 의존하지 않아도 됩니다</p>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num-col">
+          <div class="step-circle">2</div>
+          <div class="step-line"></div>
+        </div>
+        <div class="step-body">
+          <span class="step-keyword">신뢰</span>
+          <p class="step-name">원클릭 영상 제작</p>
+          <p class="step-detail">편집 기술 없이도 숏폼·릴스·유튜브 홍보 영상을 즉시 생성. 학부모의 체류시간과 신뢰도를 시각적으로 압도.</p>
+          <p class="step-highlight">→ 외주 비용 없이 전문가 수준의 영상이</p>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num-col">
+          <div class="step-circle">3</div>
+          <div class="step-line"></div>
+        </div>
+        <div class="step-body">
+          <span class="step-keyword">연결</span>
+          <p class="step-name">AI 랜딩페이지 &amp; 모바일 홈페이지 제작</p>
+          <p class="step-detail">특강·설명회마다 외주 없이 즉시 만드는 홍보 페이지. 클릭 한 번으로 유입을 실제 상담 신청으로 전환.</p>
+          <p class="step-highlight">→ 이벤트마다 새 페이지, 5분이면 완성</p>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num-col">
+          <div class="step-circle">4</div>
+          <div class="step-line"></div>
+        </div>
+        <div class="step-body">
+          <span class="step-keyword">관리</span>
+          <p class="step-name">AI 학생 성과 리포트</p>
+          <p class="step-detail">테스트 결과와 학습 성과를 AI가 분석해 자동 발송. 강사 업무 80% 절감, 학부모 재등록 만족도 200% 상승.</p>
+          <p class="step-highlight">→ 학부모가 먼저 재등록을 요청합니다</p>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num-col">
+          <div class="step-circle">5</div>
+        </div>
+        <div class="step-body">
+          <span class="step-keyword">성장</span>
+          <p class="step-name">지속적인 교육과 혜택</p>
+          <p class="step-detail">매월 진행되는 프로그램 200% 활용 교육. 새로운 기능과 전략을 꾸준히 공급받아 학원이 성장합니다.</p>
+          <p class="step-highlight">→ 가입 이후에도 계속 진화합니다</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── 혜택 ── -->
+<section class="benefits-section section">
+  <div class="container">
+    <h2 class="section-title">가입 즉시 받는 혜택</h2>
+    <p class="section-desc">구독료 외에 별도로 드리는 프리미엄 콘텐츠</p>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-icon">📄</div>
+        <div class="benefit-title">에듀브리프 매주 제공</div>
+        <div class="benefit-desc">학부모 상담·발송용 최고급 콘텐츠. 상담 전환율을 높여줍니다.</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">🗂️</div>
+        <div class="benefit-title">교육 카드뉴스 매주 제공</div>
+        <div class="benefit-desc">SNS·카카오톡 채널에 바로 올릴 수 있는 완성형 콘텐츠.</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">📚</div>
+        <div class="benefit-title">월별 학원 경영 매뉴얼</div>
+        <div class="benefit-desc">30년 원장 노하우가 집약된 실전 경영 가이드. 매달 업데이트.</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">🎓</div>
+        <div class="benefit-title">한국학원대학교 30% 할인</div>
+        <div class="benefit-desc">교육비 상시 30% 할인 혜택. 학원 운영의 전문성을 키우세요.</div>
+      </div>
+      <div class="benefit-card" style="grid-column: 1 / -1;">
+        <div class="benefit-icon">🤖</div>
+        <div class="benefit-title">학원 전용 AI 툴 우선 공급권</div>
+        <div class="benefit-desc">경쟁 학원보다 먼저 사용하는 독점적 권한. 지역 선점 효과를 누리세요.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 가격 ── -->
+<section class="price-section section">
+  <div class="container">
+    <h2 class="section-title">가입 안내</h2>
+    <p class="section-desc">얼리버드 혜택은 이번 모집 마감과 함께 종료됩니다</p>
+
+    <div class="price-card">
+      <div class="price-card-header">
+        <span class="price-card-header-title">G500 PRO 연간 구독료 (VAT 포함)</span>
+        <span class="price-earlybird">EARLY BIRD</span>
+      </div>
+      <div class="price-card-body">
+        <div style="font-size:20px; color:#b0a090; text-decoration:line-through; text-decoration-color:#e05050; text-decoration-thickness:2px; margin-bottom:6px;">3,300,000원</div>
+        <div class="price-amount">1,580,000<span>원 (VAT 포함)</span></div>
+        <div class="price-monthly">월 12만원 — 신입생 한 명이면 충분합니다</div>
+        <hr class="price-divider">
+        <div class="price-account">
+          <strong>입금 계좌</strong> &nbsp;신한은행 140-007-738246<br>
+          <strong>예금주</strong> &nbsp;(주)해오름커뮤니케이션즈
+        </div>
+      </div>
+    </div>
+
+    <div class="urgency-strip">
+      <div class="urgency-icon">⏰</div>
+      <div class="urgency-text">
+        <strong>얼리버드 10개 추가모집 (총 30개)</strong><br>
+        이번 모집의 프리미엄 혜택은 지역을 선점하실 원장님께만 드립니다. 자리가 마감되면 해당 지역은 다음 모집까지 대기하셔야 합니다.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-section">
+  <div class="container">
+    <h2 class="cta-title">
+      원장님의 학원이<br>상위 1%로 도약하는<br>터닝포인트입니다
+    </h2>
+    <p class="cta-sub">웨비나에서 직접 확인하신 그 시스템 — 지금 바로 시작하세요</p>
+    <div style="display:flex; flex-direction:column; align-items:center; gap:14px;">
+      <a class="cta-btn" href="https://m.site.naver.com/264Kd" target="_blank">▶ 상담 신청하기</a>
+      <a class="cta-btn webinar-btn" href="https://youtu.be/HfiG337E-00" target="_blank">▶ 웨비나 다시 보기</a>
+    </div>
+    <p class="cta-note">문의 010-5352-3437</p>
+  </div>
+</section>
+
+<footer>
+  <div>(주)해오름커뮤니케이션즈</div>
+  <div>문의 &nbsp;<a href="tel:01053523437">010-5352-3437</a></div>
+  <div style="margin-top:8px; font-size:11px;">© 해오름커뮤니케이션즈. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
